@@ -3,8 +3,7 @@ var operand;
 var operator;
 var preVal;
 //var flag = false;
-var bleep=new Audio();
-bleep.src="http://www.soundjay.com/button/button-29.wav";
+var bleep=new Audio("http://www.soundjay.com/button/button-29.wav");d
 function isOperator(val) {
   return (val === '+' || val === '-' || val === '*' || val === '/') ? true : false;
 }
