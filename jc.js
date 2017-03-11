@@ -3,6 +3,11 @@ var operand;
 var operator;
 var preVal;
 //var flag = false;
+var bleep=new Audio();
+bleep.src="http://www.soundjay.com/button/button-29.wav";
+$("button").on("click",function(){
+  bleep.play();
+});
 function isOperator(val) {
   return (val === '+' || val === '-' || val === '*' || val === '/') ? true : false;
 }
