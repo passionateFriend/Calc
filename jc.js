@@ -5,9 +5,6 @@ var preVal;
 //var flag = false;
 var bleep=new Audio();
 bleep.src="http://www.soundjay.com/button/button-29.wav";
-$("button").on("click",function(){
-  bleep.play();
-});
 function isOperator(val) {
   return (val === '+' || val === '-' || val === '*' || val === '/') ? true : false;
 }
@@ -32,6 +29,7 @@ function calc() {
   return res;
 }
 function myFunc(val) {
+  bleep.play();
   //console.log("str: " + str + "operand: " + operand + "operator: " + operator + "preVal: " + preVal);
   if(isOperator(preVal)) {
     str = "";
