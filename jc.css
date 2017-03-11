@@ -1,0 +1,28 @@
+body {
+  background-image: url('https://previews.123rf.com/images/medveh/medveh1207/medveh120700377/14576545-Math-Style-Blue-Background-Stock-Vector-mathematics.jpg');
+}
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 45px;
+}
+input {
+  font-size: 40px;
+  width: 99%;
+  height: 85%;
+}
+table {
+  margin-left: 35%;
+  margin-top: 10%;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+}
+#C {
+  color: red;
+}
+.num {
+  color:blue;
+}
+.op {
+  color:magentawhite
